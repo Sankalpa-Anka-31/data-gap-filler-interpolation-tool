@@ -93,4 +93,4 @@ def interpolate_file():
     return render_template('show_interpolated.html', columns=columns, data=data, graph_html=graph_html_after)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=3000)
