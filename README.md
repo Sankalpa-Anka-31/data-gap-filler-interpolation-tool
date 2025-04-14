@@ -1,4 +1,4 @@
-📈 Data Gap Filler: Interpolation Tool
+## 📈 Data Gap Filler: Interpolation Tool
 
 This is a Flask-based web application that allows users to upload a CSV file with missing data, and it generates both textual and visual (Plotly) representations of the original and interpolated data.
 
