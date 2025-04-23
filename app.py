@@ -92,5 +92,13 @@ def interpolate_file():
 
     return render_template('show_interpolated.html', columns=columns, data=data, graph_html=graph_html_after)
 
+@app.route('/download')
+def download_file():
+    path = os.path.join(UPLOAD_FOLDER, 'interpolated.csv')
+    if os.path.exists(path):
+        return send_file(path, as_attachment=True)
+    else:
+        return "Interpolated file not found.", 404
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=3000)
