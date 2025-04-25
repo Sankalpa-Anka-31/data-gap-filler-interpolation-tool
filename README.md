@@ -24,7 +24,7 @@ This is a Flask-based web application that allows users to upload a CSV file wit
 - numpy
 - plotly
 - HTML & CSS (with background image)
-- Deployed on Vercel (serverless deployment)
+- Deployed on Render
 
 ---
 
