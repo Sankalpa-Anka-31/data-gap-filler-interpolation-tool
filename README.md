@@ -45,7 +45,7 @@ data-interpolation-app/
 ## 🌐 Deployment
 
 This app is live at:
-🔗 https://data-interpolation-app.vercel.app
+🔗 https://data-gap-filler-interpolation-tool.onrender.com
 
 ---
 
